@@ -23,8 +23,8 @@ earth_venus_ratio = 0.62
 user_age_venus = user_age / earth_venus_ratio
 
 # Prints the combined variables and sentence customized to the user input.
-print(f"\nDear {name}, in 2021 your age on earth will be {user_age})"
-      f". \nAnd your age in Venus years will be {user_age_venus})")
+print(f"\nDear {name}, in 2021 your age on earth will be {user_age}. "
+      f"\nAnd your age in Venus years will be {user_age_venus}.")
 
 # Added this so the user can still be in the window to see the output instead of it exiting immediately.
 input("\nPress ENTER to exit")
